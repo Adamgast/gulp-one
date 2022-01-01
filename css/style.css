@@ -1,0 +1,43 @@
+@font-face {
+	font-family: ACaslonPro;
+	font-display: swap;
+	src: url("../fonts/ACaslonPro-Italic.woff2") format("woff2"), url("../fonts/ACaslonPro-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: books;
+	font-display: swap;
+	src: url("../fonts/books-bold.woff2") format("woff2"), url("../fonts/books-bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: estre;
+	font-display: swap;
+	src: url("../fonts/estre.woff2") format("woff2"), url("../fonts/estre.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+.no-webp body {
+	background: url("../img/pro.jpg") 0 0 no-repeat;
+}
+
+body {
+	font-family: ACaslonPro;
+}
+
+body span {
+	color: #711111;
+}
+
+h1 {
+	font-family: books;
+}
+
+.webp body {
+	background: url(../img/pro.webp) 0 0 no-repeat;
+}
