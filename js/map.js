@@ -119,7 +119,7 @@ function mapInit(n = 1) {
 	};
 	var map = new google.maps.Map(document.getElementById('map'), options);
 	var icon = {
-		url: 'img/icons/01.jpg',
+		url: 'img/icons/file.png',
 		scaledSize: new google.maps.Size(18, 20),
 		anchor: new google.maps.Point(9, 10)
 	}
